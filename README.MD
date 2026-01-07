@@ -18,13 +18,13 @@ Writer turned engineer. I spent years studying how language creates meaning.
 Now I apply that to how machines communicate.
 ```
 
-English was never my first language, but it's always been my favorite subject. I spent most of my life reading and writing—debating ideas, reporting stories, diving into text. Then I discovered computer science and realized it was just writing. Different syntax, different rules, but writing all the same.
+I spent most of my life reading and writing—debating ideas, reporting stories, diving into text. Then I discovered computer science and realized it was just writing. Different syntax, different rules, but writing all the same.
 
 **I transitioned because I want to build, not sell.**
 
 ---
 
-## Currently Building
+## Most Recent Production Build
 
 **[HeyContext](https://github.com/persist-os)** — Multi-agent orchestration workspace where families of specialized agents coordinate autonomously. Messages become execution commands. Agents write A2A notes, generate prompts on-demand, iterate every time.
 
