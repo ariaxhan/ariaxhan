@@ -98,6 +98,10 @@ Compact A2A format for machine-readable coordination.
 
 ## Writing (selected)
 
+- [10 Things I Wish I Knew When I Started Using AI for Coding](https://medium.com/@ariaxhan/10-things-i-wish-i-knew-when-i-started-using-ai-for-coding-887c26a6c1d1) -  (workflow lessons: reading, context hygiene, planning as the work)
+- [This AI Analyzes My Entire Life and Costs $0/Month to Run] (https://medium.com/@ariaxhan/the-synthesis-pool-0ce814fdfa5f)
+- **Why Prompt Engineering Can’t Fix Hallucinations (But Neurosurgery Can)**  
+  https://medium.com/@ariaxhan/why-prompt-engineering-cant-fix-hallucinations-but-neurosurgery-can-a1a7afa2f8bf
 - [Stop Building Chatbots](https://medium.com/@ariaxhan/part-1-stop-building-chatbots-why-we-killed-the-conversation-to-fix-ai-698641d5cfa2) — architectural mistakes in AI products
 - [Beyond RAG](https://medium.com/@ariaxhan/part-2-beyond-rag-building-living-context-and-evolutionary-agents-ab7b270fb6aa) — context that evolves vs. context that retrieves
 - [Latency & Logic](https://medium.com/@ariaxhan/latency-logic-why-we-need-a-vector-aligned-syntax-6b7f832603b9) — why token count isn't the metric
