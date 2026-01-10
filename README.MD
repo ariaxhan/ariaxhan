@@ -29,7 +29,7 @@ Three startups later, I'm mass-converting English fluency into system design. Tu
 
 ### HeyContext
 Multi-agent workspace shipped with PersistOS.  
-Redis-backed async, structured outputs, agents that pass notes to each other.
+Redis-backed async, structured outputs, agents reading A2A notes.
 
 </td>
 <td width="33%" valign="top">
