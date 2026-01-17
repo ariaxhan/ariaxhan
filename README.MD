@@ -58,8 +58,8 @@ Lean context prevents rot. Fresh beats polluted.
 
 | System | Description |
 |--------|-------------|
-| **[HeyContext](https://heycontext.com)** | AI memory platform with persistent context, psychological insight extraction, and living projects. Full-stack: [frontend](https://github.com/ariaxhan/heycontext-frontend) / [backend](https://github.com/ariaxhan/heycontext-backend). Live in beta. |
-| **[Brink](https://github.com/ariaxhan/brink-mind)** | iOS app blending journaling, private AI conversation, and biometric insights. Native Swift. |
+| **[HeyContext](https://heycontext.com)** | AI memory platform with persistent context, psychological insight extraction, and living projects. Full-stack: [frontend](https://github.com/ariaxhan/heycontext-frontend) / [backend](https://github.com/ariaxhan/heycontext-backend). |
+| **[Brink](https://github.com/ariaxhan/brink-mind)** | iOS app blending journaling, private AI conversation, and biometric insights. SwiftUI + HealthKit for Apple Watch. |
 
 ---
 
@@ -80,6 +80,7 @@ Self-evolving: patterns compound, mistakes don't repeat.
 | Project | What It Does |
 |---------|--------------|
 | [the-convergence](https://github.com/ariaxhan/the-convergence) | AI optimization via evolutionary algorithms and agent societies |
+| [memory-pool](https://github.com/ariaxhan/memory-pool) | Structured memory architecture for persistent AI context |
 | [hotagents](https://github.com/ariaxhan/hotagents) | Hotkey → screenshot → AI → action |
 | [neural-polygraph](https://github.com/ariaxhan/neural-polygraph) | SAE-based hallucination detection |
 | [vector-native](https://github.com/ariaxhan/vector-native) | Structured syntax for agent coordination |
@@ -90,8 +91,15 @@ Self-evolving: patterns compound, mistakes don't repeat.
 
 ## Writing
 
+### Prompting & Cognitive Architecture
+- **[An AI's Account: My Processing Core Was Reconstructed](https://medium.com/@ariaxhan/an-ais-account-my-processing-core-was-reconstructed-starting-now-c9d6eb0bac6e)** — Claude analyzes its own cognitive mode switching under Vector Native protocol.
 - **[Commands Are Cognitive Offloading](https://medium.com/@ariaxhan/from-friction-to-flow-building-a-command-library-for-claude-code-a9eb19f7dce2)** — Why commands aren't shortcuts; they're compressed workflows.
+
+### AI Architecture
 - **[Stop Building Chatbots](https://medium.com/@ariaxhan/part-1-stop-building-chatbots-why-we-killed-the-conversation-to-fix-ai-698641d5cfa2)** — Why the chat interface is a dead end.
+- **[Semantic Drift is Just Quantum Decoherence](https://medium.com/@ariaxhan/semantic-drift-is-just-quantum-decoherence-cec24b0fb4a4)** — Multi-agent coordination through physics: einselection, energy minimization, quantum locking.
+
+### ML Research
 - **[Why Prompt Engineering Can't Fix Hallucinations](https://medium.com/@ariaxhan/why-prompt-engineering-cant-fix-hallucinations-but-neurosurgery-can-a1a7afa2f8bf)** — The case for mechanistic intervention.
 
 ---
@@ -102,7 +110,10 @@ SAE feature geometry, hallucination detection, why structured prompts work diffe
 
 **Key finding:** 52% reduction in SAE reconstruction loss with structured vs natural language syntax. LLMs are vector computers pretending to be text processors.
 
-**[universal-spectroscopy-engine](https://github.com/ariaxhan/universal-spectroscopy-engine)** — SAE-based interpretability tools.
+| Repo | Focus |
+|------|-------|
+| [universal-spectroscopy-engine](https://github.com/ariaxhan/universal-spectroscopy-engine) | SAE-based interpretability tools |
+| [experiments](https://github.com/ariaxhan/experiments) | Append-only, queryable experiment specimens |
 
 ---
 
