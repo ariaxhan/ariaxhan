@@ -17,8 +17,6 @@
 
 ## Philosophy
 
-I was an English major before I ever wrote code. That's not a disclaimer; it's the point.
-
 After a year building production systems with AI (10-12 hours daily, 7 days a week), I've learned: **language is the key variable in a Large Language Model**. LLMs aren't code generators. They're readers. What you write shapes what they do.
 
 The industry hasn't caught up. Most developers treat prompting as an afterthought. I treat it as craft — the same craft I spent years developing as a writer, a poet, an English major obsessed with precision. Now that craft builds production systems.
