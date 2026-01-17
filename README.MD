@@ -2,7 +2,7 @@
 
 # Aria Han
 
-**Poet. Programmer. Prompt Architect.**
+**Poet. AI Engineer. Prompt Architect.**
 
 *Building production AI systems through language, not just code.*
 
