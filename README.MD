@@ -56,11 +56,19 @@ Fresh context beats polluted context. Always.
 
 **[kernel-plugin](https://github.com/ariaxhan/kernel-plugin)** | v2.0.0
 
-A Claude Code plugin that creates tailored configuration for your project. It analyzes your codebase and builds configuration that fits: coding rules from your patterns, commands for workflows you repeat, agents for specialized tasks. Methodology is applied automatically based on context, and session state persists across conversations.
+Run `/kernel-init` and KERNEL analyzes your codebase, then generates a complete custom configuration: commands for your workflows, agents for your stack, rules from your patterns, skills for repeated tasks. Everything you don't want to set up yourself.
 
 ### What It Does
 
-**Automatic methodology.** No commands to remember. KERNEL detects what you're doing and applies the right approach:
+**Generates custom config per project.** Not templates. Tailored artifacts based on what KERNEL finds in your codebase:
+
+- `.claude/CLAUDE.md` — Project-specific coding rules
+- `.claude/commands/` — Workflows for your stack (test commands, deploy scripts)
+- `.claude/agents/` — Specialized agents (test-runner if you have pytest, type-checker if you have TypeScript)
+- `.claude/rules/` — Patterns discovered in your code
+- `_meta/` — Session tracking structure
+
+**Methodology applies automatically.** Once initialized, KERNEL detects what you're doing:
 
 | You're doing... | KERNEL automatically... |
 |-----------------|-------------------------|
