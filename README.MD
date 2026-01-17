@@ -143,7 +143,7 @@ Patterns compound. Mistakes don't repeat.
 | Project | What It Does |
 |---------|--------------|
 | **HeyContext** | AI memory platform with persistent context, psychological insight extraction, living projects. Live in beta. |
-| **Brink** | iOS app blending journaling, private AI conversation, and biometric insights. Coming soon. |
+| [brink-mind](https://github.com/ariaxhan/brink-mind) | iOS app blending journaling, private AI conversation, and biometric insights |
 | [hotagents](https://github.com/ariaxhan/hotagents) | Hotkey → screenshot → AI → action |
 | [freetime](https://github.com/ariaxhan/freetime) | Multi-agent coordination from shared calendars |
 | [the-convergence](https://github.com/ariaxhan/the-convergence) | AI optimization via evolutionary algorithms and agent societies |
