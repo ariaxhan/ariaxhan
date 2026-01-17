@@ -138,20 +138,18 @@ Patterns compound. Mistakes don't repeat.
 
 ---
 
-## Production Systems
+## Projects
 
-These aren't weekend projects. They're production systems built with the methodology above.
+| Project | What It Does |
+|---------|--------------|
+| [hotagents](https://github.com/ariaxhan/hotagents) | Hotkey → screenshot → AI → action |
+| [freetime](https://github.com/ariaxhan/freetime) | Multi-agent coordination from shared calendars |
+| [arbiter](https://github.com/ariaxhan/arbiter) | Propositional logic validation engine |
+| [neural-polygraph](https://github.com/ariaxhan/neural-polygraph) | SAE-based hallucination detection |
+| [vector-native](https://github.com/ariaxhan/vector-native) | Structured syntax for agent coordination |
+| [conductor](https://github.com/ariaxhan/conductor) | Bridge between Claude Desktop and Claude Code |
 
-| System | What It Does | Stars |
-|--------|--------------|-------|
-| [hotagents](https://github.com/ariaxhan/hotagents) | Hotkey to screenshot to AI to action. Native macOS integration. | ⭐ 5 |
-| [freetime](https://github.com/ariaxhan/freetime) | Multi-agent coordination from shared calendars. Real-time scheduling optimization. | ⭐ 3 |
-| [arbiter](https://github.com/ariaxhan/arbiter) | Propositional logic validation engine. Mathematical rule verification. |  |
-| [neural-polygraph](https://github.com/ariaxhan/neural-polygraph) | SAE-based hallucination detection. Research-grade ML system. |  |
-| [vector-native](https://github.com/ariaxhan/vector-native) | Structured syntax for agent coordination. 52% reduction in SAE reconstruction loss vs natural language. |  |
-| [conductor](https://github.com/ariaxhan/conductor) | Bridge between Claude Desktop and Claude Code. Context continuity infrastructure. |  |
-
-**Six hackathon wins** (AWS, Google Cloud, Agno, Wordware). 24-48 hours each. The methodology works under pressure.
+**Six hackathon wins** (AWS, Google Cloud, Agno, Wordware). 24-48 hours each.
 
 ---
 
