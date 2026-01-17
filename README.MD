@@ -54,65 +54,79 @@ Fresh context beats polluted context. Always.
 
 ## KERNEL: Development Intelligence for Claude Code
 
-**[kernel-plugin](https://github.com/ariaxhan/kernel-plugin)** is my answer to the question: how do you make AI coding actually work at production scale?
+**[kernel-plugin](https://github.com/ariaxhan/kernel-plugin)** | v2.0.0
 
-It's not a collection of prompts. It's an operating system for AI-assisted development.
+A Claude Code plugin that creates tailored configuration for your project. It analyzes your codebase and builds configuration that fits: coding rules from your patterns, commands for workflows you repeat, agents for specialized tasks. Methodology is applied automatically based on context, and session state persists across conversations.
 
 ### What It Does
 
-KERNEL provides **automatic methodology**. Instead of manually invoking commands, it detects what you're trying to do from context and applies appropriate methodology invisibly:
+**Automatic methodology.** No commands to remember. KERNEL detects what you're doing and applies the right approach:
 
-| Signal | Methodology | Behavior |
-|--------|-------------|----------|
-| "implement", "add", "create" | PLANNING | Extract goal, assumptions, investigate patterns before writing |
-| "bug", "error", "not working" | DEBUGGING | Reproduce, isolate, instrument, root cause, verify fix |
-| "best way to", "how should I" | RESEARCH | Find existing solutions, document pitfalls, compare approaches |
-| Before completing any task | REVIEW | Check correctness, conventions, edge cases automatically |
-| New codebase | DISCOVERY | Map structure, detect tooling, extract conventions |
-| Complex plan | TEARITAPART | Question every decision, find long-term pain points |
+| You're doing... | KERNEL automatically... |
+|-----------------|-------------------------|
+| Implementing new feature | Researches, plans, defines interfaces first |
+| Fixing a bug | Reproduces, isolates, finds root cause |
+| Refactoring | Understands deeply before changing |
+| Writing code | Spawns test-runner, type-checker |
+| Completing work | Reviews against requirements |
 
-### Core Architecture
+**Proactive agents.** 13 specialized agents spawn based on context:
+
+| Fast Validation (Haiku) | Deep Analysis (Opus) |
+|-------------------------|----------------------|
+| test-runner, type-checker | code-reviewer, security-scanner |
+| lint-fixer, build-validator | test-generator, api-documenter |
+| dependency-auditor, git-historian | perf-profiler, refactor-scout |
+| **git-sync**, **metadata-sync** | debugger-deep, database-architect |
+
+`git-sync` and `metadata-sync` run at end of every response. Auto-commit. Auto-push. Auto-update session state.
+
+**Session continuity.** The `_meta/` structure tracks context across conversations:
 
 ```
-kernel/
-  state.md        # Single source of truth: repo map, tooling, conventions
-  banks/          # Methodology references (10 specialized banks)
-  rules/          # Project patterns that evolve from use
-  skills/         # Auto-triggered behaviors
-  hooks/          # Pattern capture, post-write validation
-
-commands/
-  /build          # Idea to working code pipeline
-  /ship           # Commit, push, create PR
-  /discover       # Map unfamiliar codebases
-  /handoff        # Context continuity across sessions
-  /branch         # Worktree-based isolation
-  /parallelize    # Multiple concurrent workstreams
+_meta/
+├── INDEX.md              # Navigation hub
+├── _session.md           # Session context (blockers, decisions)
+├── _learnings.md         # Change log (append-only)
+├── context/
+│   └── active.md         # Current work state
+└── research/
+    └── *.md              # Investigation outputs
 ```
 
-### Philosophy Embedded in Code
+### Architecture
 
-**Three-layer configuration**: Project > User > Plugin. Universal principles at user level, project specifics at project level. Configuration inheritance that actually works.
+```
+kernel-plugin/
+├── _meta/                 # Session tracking (v2.0.0)
+├── commands/              # 14 commands
+│   ├── /build             # Idea → research → plan → implement → validate
+│   ├── /ship              # Commit, push, create PR
+│   ├── /validate          # Pre-commit gate: types + lint + tests
+│   ├── /iterate           # Continuous improvement
+│   ├── /tearitapart       # Critical review before implementing
+│   └── ...
+├── kernel/
+│   ├── agents/            # 13 specialized agents
+│   ├── skills/            # 3 auto-triggered capabilities
+│   ├── banks/             # 10 methodology templates
+│   ├── rules/             # 11 foundational constraints
+│   └── state.md           # Project reality tracker
+```
 
-**Slotted banks**: Methodology templates with explicit caps to prevent bloat. `[TO EVOLVE]` markers for project-specific patterns that fill from use, not prescription.
+**14 commands. 13 agents. 10 banks. 11 rules. 3 skills.**
 
-**State as shared world model**: Every mode and agent reads `kernel/state.md` on activation. Single source of truth prevents drift.
+### Philosophy
 
-**Worktree-first workflow**: All work happens on isolated git worktrees, not branches. Each worktree has its own Claude session. Clean main. Parallel work. No stashing.
+**Self-evolution.** When patterns emerge, KERNEL captures them:
+```
+Learn → Log to _meta/_learnings.md → Update configs → Commit & push
+```
+Patterns compound. Mistakes don't repeat.
 
-**Kill criteria**: Explicit conditions to STOP:
-- More custom code than expected
-- Core assumption proven false
-- Native solution found mid-build
-- Fighting the framework
+**Tailored, not templated.** Every artifact exists because your project needs it. Not because a template includes it.
 
-**Token-conscious design**: ~330 token baseline, down from ~6000 in early versions. 95% reduction through modes that activate thinking styles (~30 tokens) instead of procedures (~400 tokens).
-
-### Why This Matters
-
-The typical AI coding experience: write fast, debug forever, end up with unmaintainable spaghetti.
-
-KERNEL inverts this: investigate first, plan exhaustively, have AI critique AI's plan, read every line, execute only when understanding is complete. The result is production code that works the first time.
+**Token-conscious.** ~200 token baseline (vs ~6000+ traditional). Banks load on-demand. Agents spawn only when relevant.
 
 ---
 
