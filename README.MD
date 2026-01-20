@@ -56,18 +56,24 @@ Lean context prevents rot. Fresh beats polluted.
 |--------|-------------|
 | **[HeyContext](https://heycontext.com)** | AI memory platform with persistent context, psychological insight extraction, and living projects. Full-stack: [frontend](https://github.com/ariaxhan/heycontext-frontend) / [backend](https://github.com/ariaxhan/heycontext-backend). |
 | **[Brink](https://github.com/ariaxhan/brink-mind)** | iOS app blending journaling, private AI conversation, and biometric insights. SwiftUI + HealthKit for Apple Watch. |
+| **HeyContent** | AI-powered brainstorming and content management platform for creators. Cross-platform insights across Instagram, YouTube, and Gmail with deep user memory through conversational persona generation. |
 
 ---
 
 ## KERNEL
 
-**[kernel-plugin](https://github.com/ariaxhan/kernel-plugin)** — Development intelligence for Claude Code.
+**A Living Configuration System for Claude Code and Cursor**
 
-Run `/kernel-init` and KERNEL analyzes your codebase, then generates custom configuration: commands for your workflows, agents for your stack, rules from your patterns. Not templates — tailored artifacts based on what it finds.
+Copy-pasted AI configs expire fast. Your habits shift, your codebase grows, and suddenly you're ignoring half the rules you set. KERNEL solves this by treating configuration as a living organism — one that adapts as you work.
 
-**14 commands. 13 agents. 10 methodology banks. ~200 token baseline.**
+The architecture separates lightweight rules (always loaded) from deep methodology banks (referenced on demand). Lessons get encoded permanently. The system gets smarter every session instead of staler.
 
-Self-evolving: patterns compound, mistakes don't repeat.
+**[Full writeup on Medium](https://medium.com/@ariaxhan/kernel-the-ultimate-self-evolving-claude-code-and-cursor-configuration-system-a3ddeb7f4d32)**
+
+| Repo | Platform |
+|------|----------|
+| [kernel-claude](https://github.com/ariaxhan/kernel-claude) | Claude Code |
+| [kernel-cursor](https://github.com/ariaxhan/kernel-cursor) | Cursor |
 
 ---
 
