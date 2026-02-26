@@ -1,140 +1,100 @@
-<div align="center">
-
 # Aria Han
 
-**Poet. AI Engineer. Prompt Architect.**
+**AI Systems Architect**
 
-<a href="https://ariaxhan.com"><img src="https://img.shields.io/badge/ariaxhan.com-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Website" /></a>
-<a href="https://github.com/ariaxhan"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-<a href="https://medium.com/@ariaxhan"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" /></a>
-<a href="https://linkedin.com/in/ariahan"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+I build systems that make AI agents predictable. Not smarter. Predictable.
 
-</div>
+Agents fail when they have to guess. The fix isn't better prompts; it's better contracts. Explicit scope. Typed learnings. Tiered routing based on complexity. The agent doesn't interpret. It executes against constraints.
 
----
+Systems architecture applied to language models. Poet's precision for the prompts; engineer's rigor for the infrastructure.
 
-## Philosophy
-
-After a year building production systems with AI (10-12 hours daily, 7 days a week), I've learned: **language is the key variable in a Large Language Model**. LLMs aren't code generators. They're readers. What you write shapes what they do.
-
-The industry hasn't caught up. Most developers treat prompting as an afterthought. I treat it as craft — the same craft I spent years developing as a writer, a poet, an English major obsessed with precision. Now that craft builds production systems.
-
-**Code and poetry are the same discipline wearing different clothes.** Both demand precision. Both punish vagueness. Both reward the person who finds the exact right word, the exact right structure, the exact right compression of meaning into form.
-
-The skills transfer completely:
-- **Reading comprehension** → parsing AI output critically
-- **Rhetorical structure** → organizing prompts for maximum effect
-- **Word choice precision** → "use" not "utilize", "show" not "demonstrate"
-- **Rhythm and variation** → avoiding uniform patterns that models exploit
-
-The best prompt engineers will be writers. The best AI architects will be people who understand language at a deep level. That's the bet I'm making with my work.
+[ariaxhan.com](https://ariaxhan.com) · [Medium](https://medium.com/@ariaxhan) · [GitHub](https://github.com/ariaxhan) · [LinkedIn](https://linkedin.com/in/ariahan)
 
 ---
 
-## Core Principles
+## Recent
 
-```
-CORRECTNESS > SPEED
-One working implementation beats three debug cycles.
-Plan twice, build once.
+**[What a Year of AI Taught Me About Freedom](https://medium.com/@ariaxhan/what-a-year-of-ai-taught-me-about-freedom-86b2bd4e31c8)**
 
-EVERY LINE IS A LIABILITY
-Config > code. Native > custom. Existing > new.
+Three startups in one year. The gap between idea and artifact collapsed. Corporations are deploying AI through workers who checked out years ago; the debt piles up everywhere they touch. AI isn't a tool. It's the gate torn off its hinges.
 
-RESEARCH FAILURES, NOT SOLUTIONS
-First-hand accounts of what broke > generic tutorials.
+**[Stop Writing Markdown. Start Writing Memory.](https://medium.com/@ariaxhan/stop-writing-markdown-start-writing-memory-e4a69c57caa9)**
 
-CONTEXT IS EVERYTHING
-Lean context prevents rot. Fresh beats polluted.
-```
+Markdown is a human-readable format being used for machine-to-machine communication. I rebuilt my agent workflow around SQLite: three tables (context, learnings, errors), session startup hooks that inject ambient context before you type anything, zero rotting markdown. Representation is the bottleneck. Not intelligence. Not scale.
+
+**[Automations with Claude Code](https://medium.com/@ariaxhan/automations-with-claude-code-personalized-proactive-emails-and-code-poetry-from-local-context-3a7e93bf5a3d)**
+
+Eight times a day, agents read my vaults, pull something from outside my usual orbit, publish the collision: personalized dispatches and Taper-style code-poems that build a [self-growing gallery](https://substrate.pages.dev). The second brain metaphor is backwards. It shouldn't just store. It should think proactively.
 
 ---
 
-## Production Systems
+## The Thesis
 
-| System | Description |
-|--------|-------------|
-| **[HeyContext](https://heycontext.com)** | AI memory platform with persistent context, psychological insight extraction, and living projects. Full-stack: [frontend](https://github.com/ariaxhan/heycontext-frontend) / [backend](https://github.com/ariaxhan/heycontext-backend). |
-| **[Brink](https://github.com/ariaxhan/brink-mind)** | iOS app blending journaling, private AI conversation, and biometric insights. SwiftUI + HealthKit for Apple Watch. |
-| **HeyContent** | AI-powered brainstorming and content management platform for creators. Cross-platform insights across Instagram, YouTube, and Gmail with deep user memory through conversational persona generation. |
+**Agents need constraints, not capability.**
 
----
+Most AI workflows operate on vibes. You describe a task. The agent interprets. If the output matches what you imagined, ship it. If not, iterate until exhausted.
 
-## KERNEL
+I build systems that eliminate the interpretation step:
 
-**A Living Configuration System for Claude Code and Cursor**
+- **Contracts before code**: Explicit acceptance criteria, scope boundaries, failure conditions. Written before implementation, not discovered during review.
+- **Learnings as database objects**: Not notes. Typed rows: failures, patterns, gotchas. Queryable by category. Evidence-gated. Surviving session boundaries.
+- **Tiered routing**: Complexity determines pipeline. 1-2 files: execute directly. 3-5 files: contract required. 6+: full verification with adversarial QA.
 
-Copy-pasted AI configs expire fast. Your habits shift, your codebase grows, and suddenly you're ignoring half the rules you set. KERNEL solves this by treating configuration as a living organism — one that adapts as you work.
-
-The architecture separates lightweight rules (always loaded) from deep methodology banks (referenced on demand). Lessons get encoded permanently. The system gets smarter every session instead of staler.
-
-**[Full writeup on Medium](https://medium.com/@ariaxhan/kernel-the-ultimate-self-evolving-claude-code-and-cursor-configuration-system-a3ddeb7f4d32)**
-
-| Repo | Platform |
-|------|----------|
-| [kernel-claude](https://github.com/ariaxhan/kernel-claude) | Claude Code |
-| [kernel-cursor](https://github.com/ariaxhan/kernel-cursor) | Cursor |
-
----
-
-## Projects
-
-| Project | What It Does |
-|---------|--------------|
-| [the-convergence](https://github.com/ariaxhan/the-convergence) | AI optimization via evolutionary algorithms and agent societies |
-| [memory-pool](https://github.com/ariaxhan/memory-pool) | Structured memory architecture for persistent AI context |
-| [hotagents](https://github.com/ariaxhan/hotagents) | Hotkey → screenshot → AI → action |
-| [neural-polygraph](https://github.com/ariaxhan/neural-polygraph) | SAE-based hallucination detection |
-| [vector-native](https://github.com/ariaxhan/vector-native) | Structured syntax for agent coordination |
-
-**Six hackathon wins** (AWS, Google Cloud, Agno, Wordware).
-
----
-
-## Writing
-
-### Prompting & Cognitive Architecture
-- **[An AI's Account: My Processing Core Was Reconstructed](https://medium.com/@ariaxhan/an-ais-account-my-processing-core-was-reconstructed-starting-now-c9d6eb0bac6e)** — Claude analyzes its own cognitive mode switching under Vector Native protocol.
-- **[Commands Are Cognitive Offloading](https://medium.com/@ariaxhan/from-friction-to-flow-building-a-command-library-for-claude-code-a9eb19f7dce2)** — Why commands aren't shortcuts; they're compressed workflows.
-
-### AI Architecture
-- **[Stop Building Chatbots](https://medium.com/@ariaxhan/part-1-stop-building-chatbots-why-we-killed-the-conversation-to-fix-ai-698641d5cfa2)** — Why the chat interface is a dead end.
-- **[Semantic Drift is Just Quantum Decoherence](https://medium.com/@ariaxhan/semantic-drift-is-just-quantum-decoherence-cec24b0fb4a4)** — Multi-agent coordination through physics: einselection, energy minimization, quantum locking.
-
-### ML Research
-- **[Why Prompt Engineering Can't Fix Hallucinations](https://medium.com/@ariaxhan/why-prompt-engineering-cant-fix-hallucinations-but-neurosurgery-can-a1a7afa2f8bf)** — The case for mechanistic intervention.
+The agents aren't getting smarter. They're getting access to what their predecessors learned. That turns out to be enough.
 
 ---
 
 ## Research
 
-SAE feature geometry, hallucination detection, why structured prompts work differently at the activation level.
+I measure how models compute, not whether they're correct.
 
-**Key finding:** 52% reduction in SAE reconstruction loss with structured vs natural language syntax. LLMs are vector computers pretending to be text processors.
+**[latent-diagnostics](https://github.com/ariaxhan/latent-diagnostics)**: Representation-level analysis of LLMs via SAE attribution graphs. Grammar tasks show d=1.08 higher influence than reasoning tasks. After length control, genuine computational regime differences emerge.
 
-| Repo | Focus |
-|------|-------|
-| [universal-spectroscopy-engine](https://github.com/ariaxhan/universal-spectroscopy-engine) | SAE-based interpretability tools |
-| [experiments](https://github.com/ariaxhan/experiments) | Append-only, queryable experiment specimens |
+**[universal-spectroscopy-engine](https://github.com/ariaxhan/universal-spectroscopy-engine)**: Treats LLM activations as light spectra. 52% reduction in SAE reconstruction loss with structured vs natural language syntax. LLMs are vector computers pretending to be text processors.
 
----
-
-## Stack
-
-```
-Languages:    Python, TypeScript, Swift
-Frameworks:   FastAPI, Next.js, SvelteKit
-AI:           Claude, OpenAI, Sparse Autoencoders
-Data:         Redis, Polars, PostgreSQL
-Infra:        Vercel, GCP, Docker
-```
+**[experiments](https://github.com/ariaxhan/experiments)**: Append-only specimen archive for LLM experiments.
 
 ---
 
-<div align="center">
+## Production
 
-San Francisco
+| | |
+|---|---|
+| **[HeyContext](https://heycontext.com)** | AI memory platform. Persistent context, psychological insight extraction, living projects. |
+| **[Brink](https://github.com/ariaxhan/brink-mind)** | iOS journaling with private AI and biometrics. SwiftUI, HealthKit. |
+| **HeyContent** | Content management for creators. Cross-platform insights, conversational persona generation. |
 
-<a href="mailto:ariaxhan@gmail.com"><img src="https://img.shields.io/badge/ariaxhan@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a> <a href="https://x.com/aria__han"><img src="https://img.shields.io/badge/@aria__han-1DA1F2?style=flat-square&logo=twitter&logoColor=white" alt="X" /></a>
+---
 
-</div>
+## Infrastructure
+
+| | |
+|---|---|
+| **[KERNEL](https://github.com/ariaxhan/kernel-claude)** | AgentDB-first coding methodology. SQLite for agent memory; contracts before code; orchestration for complex work. [Cursor version](https://github.com/ariaxhan/kernel-cursor). |
+| **[conductor](https://github.com/ariaxhan/conductor)** | MCP server bridging Claude Desktop and Claude Code. |
+| **[memory-pool](https://github.com/ariaxhan/memory-pool)** | Memory isn't a timeline. Structured architecture for persistent AI context. |
+| **[event-horizon](https://github.com/ariaxhan/event-horizon)** | Physics-informed encryption. SYK scrambling, chimera camouflage, resonance locking. |
+
+---
+
+## Writing
+
+[Self-Learning Agent Civilization](https://medium.com/@ariaxhan/how-i-turned-cursor-into-a-self-learning-agent-civilization-7a149e6f34e8): The original system that started everything.
+
+[Stop Building Chatbots](https://medium.com/@ariaxhan/part-1-stop-building-chatbots-why-we-killed-the-conversation-to-fix-ai-698641d5cfa2): Why the chat interface is a dead end.
+
+[KERNEL](https://medium.com/@ariaxhan/kernel-the-ultimate-self-evolving-claude-code-and-cursor-configuration-system-a3ddeb7f4d32): Configuration that adapts as you work.
+
+[Semantic Drift is Quantum Decoherence](https://medium.com/@ariaxhan/semantic-drift-is-just-quantum-decoherence-cec24b0fb4a4): Multi-agent coordination through physics.
+
+[Why Prompt Engineering Can't Fix Hallucinations](https://medium.com/@ariaxhan/why-prompt-engineering-cant-fix-hallucinations-but-neurosurgery-can-a1a7afa2f8bf): The case for mechanistic intervention.
+
+---
+
+```
+Python · TypeScript · Swift
+FastAPI · Next.js · SvelteKit
+Claude · SAEs · Modal
+```
+
+San Francisco · [ariaxhan@gmail.com](mailto:ariaxhan@gmail.com) · [@aria__han](https://x.com/aria__han)
