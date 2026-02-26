@@ -1,14 +1,23 @@
+<div align="center">
+
 # Aria Han
 
 **AI Systems Architect**
+
+<a href="https://ariaxhan.com"><img src="https://img.shields.io/badge/ariaxhan.com-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Website" /></a>
+<a href="https://medium.com/@ariaxhan"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" /></a>
+<a href="https://github.com/ariaxhan"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+<a href="https://linkedin.com/in/ariahan"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+
+</div>
+
+---
 
 I build systems that make AI agents predictable. Not smarter. Predictable.
 
 Agents fail when they have to guess. The fix isn't better prompts; it's better contracts. Explicit scope. Typed learnings. Tiered routing based on complexity. The agent doesn't interpret. It executes against constraints.
 
 Systems architecture applied to language models. Poet's precision for the prompts; engineer's rigor for the infrastructure.
-
-[ariaxhan.com](https://ariaxhan.com) · [Medium](https://medium.com/@ariaxhan) · [GitHub](https://github.com/ariaxhan) · [LinkedIn](https://linkedin.com/in/ariahan)
 
 ---
 
@@ -24,7 +33,7 @@ Markdown is a human-readable format being used for machine-to-machine communicat
 
 **[Automations with Claude Code](https://medium.com/@ariaxhan/automations-with-claude-code-personalized-proactive-emails-and-code-poetry-from-local-context-3a7e93bf5a3d)**
 
-Eight times a day, agents read my vaults, pull something from outside my usual orbit, publish the collision: personalized dispatches and Taper-style code-poems that build a [self-growing gallery](https://substrate.pages.dev). The second brain metaphor is backwards. It shouldn't just store. It should think proactively.
+Eight times a day, agents read my vaults, pull something from outside my usual orbit, publish the collision: personalized dispatches and Taper-style code-poems that build a [self-growing gallery](https://nexus-substrate.pages.dev). The second brain metaphor is backwards. It shouldn't just store. It should think proactively.
 
 ---
 
@@ -97,4 +106,10 @@ FastAPI · Next.js · SvelteKit
 Claude · SAEs · Modal
 ```
 
-San Francisco · [ariaxhan@gmail.com](mailto:ariaxhan@gmail.com) · [@aria__han](https://x.com/aria__han)
+<div align="center">
+
+San Francisco
+
+<a href="mailto:ariaxhan@gmail.com"><img src="https://img.shields.io/badge/ariaxhan@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a> <a href="https://x.com/aria__han"><img src="https://img.shields.io/badge/@aria__han-1DA1F2?style=flat-square&logo=twitter&logoColor=white" alt="X" /></a>
+
+</div>
