@@ -2,7 +2,7 @@
 
 # Aria Han
 
-**AI Systems Architect**
+**AI Systems Architect · Writer**
 
 <a href="https://ariaxhan.com"><img src="https://img.shields.io/badge/ariaxhan.com-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Website" /></a>
 <a href="https://medium.com/@ariaxhan"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" /></a>
@@ -72,6 +72,7 @@ I measure how models compute, not whether they're correct.
 | **[HeyContext](https://heycontext.com)** | AI memory platform. Persistent context, psychological insight extraction, living projects. |
 | **[Brink](https://github.com/ariaxhan/brink-mind)** | iOS journaling with private AI and biometrics. SwiftUI, HealthKit. |
 | **HeyContent** | Content management for creators. Cross-platform insights, conversational persona generation. |
+| **ModelMind** | Duolingo-style app for genuinely understanding how AI works — not how to prompt it, how it thinks. In development. |
 
 ---
 
@@ -79,7 +80,7 @@ I measure how models compute, not whether they're correct.
 
 | | |
 |---|---|
-| **[KERNEL](https://github.com/ariaxhan/kernel-claude)** | AgentDB-first coding methodology. SQLite for agent memory; contracts before code; orchestration for complex work. [Cursor version](https://github.com/ariaxhan/kernel-cursor). |
+| **[KERNEL](https://github.com/ariaxhan/kernel-claude)** | Claude Code that learns from itself. SQLite-backed agent memory, multi-agent orchestration, and an experiment engine that proves which workflows actually hold up. Active development, open source. [Cursor version](https://github.com/ariaxhan/kernel-cursor). |
 | **[conductor](https://github.com/ariaxhan/conductor)** | MCP server bridging Claude Desktop and Claude Code. |
 | **[memory-pool](https://github.com/ariaxhan/memory-pool)** | Memory isn't a timeline. Structured architecture for persistent AI context. |
 | **[event-horizon](https://github.com/ariaxhan/event-horizon)** | Physics-informed encryption. SYK scrambling, chimera camouflage, resonance locking. |
@@ -88,9 +89,17 @@ I measure how models compute, not whether they're correct.
 
 ## Writing
 
+*Currently writing **Intelligence Architecture** — a principles-first book on building with AI. In progress.*
+
+[Engineering the Soul](https://medium.com/@ariaxhan/engineering-the-soul-49428c073c4e): AI consciousness read through four novels. Every answer sounds like the person asking the question.
+
+[The Agent-Ready Web](https://medium.com/@ariaxhan/the-agent-ready-web-a-working-guide-to-cloudflares-new-score-1ed0fce8d760): Making a site legible to AI agents — llms.txt, MCP, markdown negotiation, content-signals. Half the checks are policy, not config.
+
 [Self-Learning Agent Civilization](https://medium.com/@ariaxhan/how-i-turned-cursor-into-a-self-learning-agent-civilization-7a149e6f34e8): The original system that started everything.
 
 [Stop Building Chatbots](https://medium.com/@ariaxhan/part-1-stop-building-chatbots-why-we-killed-the-conversation-to-fix-ai-698641d5cfa2): Why the chat interface is a dead end.
+
+[How to Make Claude Code Actually Work](https://medium.com/@ariaxhan/how-to-make-claude-code-actually-work-structure-memory-and-multi-agent-workflows-6d32b1d815d2): The full guide to KERNEL — structure, memory, and multi-agent workflows.
 
 [KERNEL](https://medium.com/@ariaxhan/kernel-the-ultimate-self-evolving-claude-code-and-cursor-configuration-system-a3ddeb7f4d32): Configuration that adapts as you work.
 
