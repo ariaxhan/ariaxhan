@@ -23,17 +23,17 @@ Systems architecture applied to language models. Poet's precision for the prompt
 
 ## Recent
 
-**[What a Year of AI Taught Me About Freedom](https://medium.com/@ariaxhan/what-a-year-of-ai-taught-me-about-freedom-86b2bd4e31c8)**
+**[Stop Copying Other People's AI Setups. Build One That's Actually Yours.](https://medium.com/@ariaxhan/stop-copying-other-peoples-ai-setups-build-one-that-s-actually-yours-e1a05ebabc2a)**
 
-Three startups in one year. The gap between idea and artifact collapsed. Corporations are deploying AI through workers who checked out years ago; the debt piles up everywhere they touch. AI isn't a tool. It's the gate torn off its hinges.
+A rule you copied never had to prove itself to you. Extract every rule as a falsifiable hypothesis, mine your own session history for evidence, score it against a standard set in advance, keep only what survives. Most popular workflows don't.
 
-**[Stop Writing Markdown. Start Writing Memory.](https://medium.com/@ariaxhan/stop-writing-markdown-start-writing-memory-e4a69c57caa9)**
+**[What an AI Detector Actually Measures](https://medium.com/@ariaxhan/what-an-ai-detector-actually-measures-86b452979a5a)**
 
-Markdown is a human-readable format being used for machine-to-machine communication. I rebuilt my agent workflow around SQLite: three tables (context, learnings, errors), session startup hooks that inject ambient context before you type anything, zero rotting markdown. Representation is the bottleneck. Not intelligence. Not scale.
+AI detectors measure predictability, not authorship. Low perplexity flags machine writing, careful human prose, and familiar phrasing identically — a false-alarm rate far past the advertised number. A tool that can't define its own score is very confident about something it can't measure. People lose jobs over it.
 
-**[Automations with Claude Code](https://medium.com/@ariaxhan/automations-with-claude-code-personalized-proactive-emails-and-code-poetry-from-local-context-3a7e93bf5a3d)**
+**[Opus 4.8 vs 4.7 vs Sonnet vs Haiku](https://medium.com/@ariaxhan/opus-4-8-vs-4-7-vs-sonnet-vs-haiku-when-the-expensive-model-is-worth-it-44892a75d5c5)**
 
-Eight times a day, agents read my vaults, pull something from outside my usual orbit, publish the collision: personalized dispatches and Taper-style code-poems that build a [self-growing gallery](https://nexus-substrate.pages.dev). The second brain metaphor is backwards. It shouldn't just store. It should think proactively.
+Twenty-one real tasks across every tier. For extraction and writing, the cheap models land within a hair of Opus at a fraction of the cost. Reaching for the biggest model by default is the most expensive habit in AI — reserve it for genuinely multi-step reasoning, not everything.
 
 ---
 
@@ -69,7 +69,6 @@ I measure how models compute, not whether they're correct.
 
 | | |
 |---|---|
-| **[HeyContext](https://heycontext.com)** | AI memory platform. Persistent context, psychological insight extraction, living projects. |
 | **[Brink](https://github.com/ariaxhan/brink-mind)** | iOS journaling with private AI and biometrics. SwiftUI, HealthKit. |
 | **HeyContent** | Content management for creators. Cross-platform insights, conversational persona generation. |
 | **ModelMind** | Duolingo-style app for genuinely understanding how AI works — not how to prompt it, how it thinks. In development. |
@@ -82,6 +81,7 @@ I measure how models compute, not whether they're correct.
 |---|---|
 | **[KERNEL](https://github.com/ariaxhan/kernel-claude)** | Claude Code that learns from itself. SQLite-backed agent memory, multi-agent orchestration, and an experiment engine that proves which workflows actually hold up. Active development, open source. [Cursor version](https://github.com/ariaxhan/kernel-cursor). |
 | **[conductor](https://github.com/ariaxhan/conductor)** | MCP server bridging Claude Desktop and Claude Code. |
+| **[metabrain](https://github.com/ariaxhan/metabrain)** | Zero-dependency SQLite memory layer for AI agents. The "Stop Writing Markdown" architecture as a drop-in library. |
 | **[memory-pool](https://github.com/ariaxhan/memory-pool)** | Memory isn't a timeline. Structured architecture for persistent AI context. |
 | **[event-horizon](https://github.com/ariaxhan/event-horizon)** | Physics-informed encryption. SYK scrambling, chimera camouflage, resonance locking. |
 
