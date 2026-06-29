@@ -28,7 +28,7 @@ The short version: three companies, six hackathon wins, 47 public GitHub reposit
 | **[model-familiarity-engine](https://github.com/ariaxhan/model-familiarity-engine)** | Evidence-backed model cards from replayed known-outcome tasks and observed model behavior. |
 | **[the-agent-library](https://github.com/ariaxhan/the-agent-library)** | A curated library of 34 portable skills for Claude, Codex, and other agents: verification, planning, research, writing, work management, code engineering, and shipping. |
 | **[metabrain](https://github.com/ariaxhan/metabrain)** | Zero-dependency SQLite memory for agents. Patterns graduate into hypotheses; outcomes become experiments; proven lessons become preferences. |
-| **[Substrate](https://github.com/ariaxhan/substrate)** | Generative art gallery where Claude Code agents create self-contained interactive HTML pieces through daily automation. 70+ pieces and counting. |
+| **[Substrate](https://nexus-substrate.pages.dev)** | Generative art gallery where Claude generates one self-contained interactive HTML piece per run through daily automation — in the lineage of [Taper](https://taper.badquar.to/). Live at [nexus-substrate.pages.dev](https://nexus-substrate.pages.dev), 390+ pieces and counting. |
 | **[latent-diagnostics](https://github.com/ariaxhan/latent-diagnostics)** | Representation-level analysis of LLMs via attribution graph geometry. Preserves both real task-domain signals and negative results that did not survive controls. |
 
 ---
