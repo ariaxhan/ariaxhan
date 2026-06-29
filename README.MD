@@ -15,7 +15,7 @@
 
 I build systems that make AI agents more reliable: memory, coordination, verification, model routing, and the little workflows that keep agents from confidently wandering into a wall.
 
-The short version: three companies, six hackathon wins, 46 public GitHub repositories, and a current obsession with agent infrastructure that proves its own claims.
+The short version: three companies, six hackathon wins, 47 public GitHub repositories, and a current obsession with agent infrastructure that proves its own claims.
 
 ---
 
@@ -24,7 +24,8 @@ The short version: three companies, six hackathon wins, 46 public GitHub reposit
 | | |
 |---|---|
 | **[KERNEL](https://github.com/ariaxhan/kernel-claude)** | Claude Code that learns from itself. Persistent SQLite memory, multi-agent orchestration, validation gates, on-demand skills, and an experiment engine for proving which rules actually work. |
-| **[llm-bench](https://github.com/ariaxhan/llm-bench)** | A Model Familiarity Engine, not a leaderboard. Replays real tasks through models, redacts secrets, floor-tests the judge, and builds evidence-backed model cards for routing decisions. |
+| **[llm-bench](https://github.com/ariaxhan/llm-bench)** | Practical workflow benchmarks for local and API-hosted language models, with programmatic verifiers and provider adapters. |
+| **[model-familiarity-engine](https://github.com/ariaxhan/model-familiarity-engine)** | Evidence-backed model cards from replayed known-outcome tasks and observed model behavior. |
 | **[the-agent-library](https://github.com/ariaxhan/the-agent-library)** | A curated library of 34 portable skills for Claude, Codex, and other agents: verification, planning, research, writing, work management, code engineering, and shipping. |
 | **[metabrain](https://github.com/ariaxhan/metabrain)** | Zero-dependency SQLite memory for agents. Patterns graduate into hypotheses; outcomes become experiments; proven lessons become preferences. |
 | **[Substrate](https://github.com/ariaxhan/substrate)** | Generative art gallery where Claude Code agents create self-contained interactive HTML pieces through daily automation. 70+ pieces and counting. |
@@ -41,6 +42,7 @@ Most AI systems still run like this: ask the model, hope the answer is good, ite
 - **Memory that compounds:** agent lessons stored as structured evidence, not loose notes.
 - **Contracts before code:** scope, acceptance criteria, and failure modes written before implementation.
 - **Verification as default:** tests, lint, adversarial review, and live checks before saying done.
+- **Benchmarks with verifiers:** model comparison should be boring, reproducible, and inspectable.
 - **Model familiarity:** models earn responsibilities through observed work, not benchmark gossip.
 - **Portable workflows:** reusable skills that make agent behavior legible across tools.
 
@@ -109,7 +111,7 @@ Claude Code · SQLite · SAEs · evals · multi-agent systems
 
 <div align="center">
 
-San Francisco
+Los Angeles
 
 <a href="mailto:ariaxhan@gmail.com"><img src="https://img.shields.io/badge/ariaxhan@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
 <a href="https://x.com/aria__han"><img src="https://img.shields.io/badge/@aria__han-1DA1F2?style=flat-square&logo=twitter&logoColor=white" alt="X" /></a>
