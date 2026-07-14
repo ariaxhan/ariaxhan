@@ -15,7 +15,7 @@
 
 I build systems that make AI agents more reliable: memory, coordination, verification, model routing, and the little workflows that keep agents from confidently wandering into a wall.
 
-The short version: three companies, six hackathon wins, dozens of public GitHub repositories, and an obsession with agent infrastructure that proves its own claims.
+The short version: three companies, five hackathon wins, dozens of public GitHub repositories, and an obsession with agent infrastructure that proves its own claims.
 
 ---
 
