@@ -15,7 +15,7 @@
 
 I build systems that make AI agents more reliable: memory, coordination, verification, model routing, and the little workflows that keep agents from confidently wandering into a wall.
 
-The short version: three companies, six hackathon wins, 47 public GitHub repositories, and a current obsession with agent infrastructure that proves its own claims.
+The short version: three companies, six hackathon wins, dozens of public GitHub repositories, and an obsession with agent infrastructure that proves its own claims.
 
 ---
 
@@ -80,7 +80,6 @@ The agent is not magic. The system around it can be.
 | | |
 |---|---|
 | **[conductor](https://github.com/ariaxhan/conductor)** | MCP server bridging Claude Desktop and Claude Code. |
-| **[kernel-cursor](https://github.com/ariaxhan/kernel-cursor)** | KERNEL patterns adapted toward Cursor workflows. |
 | **[armature-ai](https://github.com/ariaxhan/armature-ai)** | AI optimization framework using evolutionary algorithms, bandits, and agent societies. |
 | **[event-horizon](https://github.com/ariaxhan/event-horizon)** | Physics-informed chaos-gated data vault experiments. |
 | **[memory-pool](https://github.com/ariaxhan/memory-pool)** | Structured persistent-memory interface. Memory is not a timeline. |
@@ -89,8 +88,6 @@ The agent is not magic. The system around it can be.
 ---
 
 ## Writing
-
-Currently writing **Intelligence Architecture**, a principles-first book on building with AI.
 
 Selected essays:
 
