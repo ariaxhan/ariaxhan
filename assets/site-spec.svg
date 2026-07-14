@@ -1,60 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" role="img" aria-labelledby="title desc">
-  <title id="title">site-spec case study</title>
-  <desc id="desc">A mobile-readable instrument plate explaining site-spec through its problem, system, evidence, and crawl pipeline.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 200" role="img" aria-labelledby="title desc">
+  <title id="title">site-spec</title>
+  <desc id="desc">Finds invisible website failures with a deterministic crawler and audit core.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#242b22"/>
-      <stop offset=".44" stop-color="#141914"/>
-      <stop offset="1" stop-color="#090c0a"/>
+      <stop offset="0" stop-color="#28241f"/><stop offset=".3" stop-color="#211e1a"/><stop offset=".58" stop-color="#1b1916"/><stop offset=".82" stop-color="#171512"/><stop offset="1" stop-color="#13110f"/>
     </linearGradient>
-    <linearGradient id="rail" x1="0" y1="0" x2="1" y2="0">
-      <stop stop-color="#1d241d"/>
-      <stop offset="1" stop-color="#101410"/>
-    </linearGradient>
-    <pattern id="grid" width="18" height="18" patternUnits="userSpaceOnUse">
-      <path d="M18 0H0V18" fill="none" stroke="#949b8c" stroke-opacity=".07"/>
-    </pattern>
+    <radialGradient id="warm" cx="86%" cy="16%" r="80%"><stop stop-color="#4b382f" stop-opacity=".13"/><stop offset="1" stop-color="#171512" stop-opacity="0"/></radialGradient>
   </defs>
-  <rect width="720" height="560" rx="6" fill="url(#bg)"/>
-  <rect width="720" height="560" rx="6" fill="url(#grid)"/>
-  <rect x="20" y="20" width="680" height="520" fill="none" stroke="#92998b" stroke-opacity=".34"/>
-  <path d="M20 98H700" stroke="#92998b" stroke-opacity=".34"/>
-  <rect x="20" y="20" width="8" height="78" fill="#c8ff3d"/>
-
-  <g font-family="'IBM Plex Mono','Cascadia Code','Courier New',monospace">
-    <text x="44" y="50" fill="#c8ff3d" font-size="16" font-weight="700" letter-spacing="2.2">01 / LEAD SYSTEM</text>
-    <text x="44" y="83" fill="#f1eadb" font-family="Baskerville,Georgia,serif" font-size="36" font-weight="700">site-spec</text>
-    <text x="678" y="64" fill="#a5a195" font-size="15" font-weight="700" text-anchor="end">TYPESCRIPT CLI ↗</text>
-
-    <text x="44" y="127" fill="#c8ff3d" font-size="17" font-weight="700" letter-spacing="1.8">PROBLEM</text>
-    <text x="44" y="164" fill="#f1eadb" font-size="30" font-weight="300">Websites hide machine-readable</text>
-    <text x="44" y="201" fill="#f1eadb" font-size="30" font-weight="300">failures until crawlers miss them.</text>
-
-    <text x="44" y="238" fill="#c8ff3d" font-size="17" font-weight="700" letter-spacing="1.8">ENGINEERED SYSTEM</text>
-    <text x="44" y="275" fill="#f1eadb" font-size="30" font-weight="300">A live crawler feeds a pure core;</text>
-    <text x="44" y="312" fill="#f1eadb" font-size="30" font-weight="300">checks emit an inspectable report.</text>
-
-    <text x="44" y="350" fill="#c8ff3d" font-size="17" font-weight="700" letter-spacing="1.8">EVIDENCE</text>
-    <text x="44" y="385" fill="#f1eadb" font-size="25" font-weight="700">139 tests / CI / 2 releases</text>
-
-    <rect x="32" y="416" width="656" height="88" fill="url(#rail)" stroke="#8a9283" stroke-opacity=".5"/>
-    <text x="50" y="441" fill="#aaa79a" font-size="14" font-weight="700" letter-spacing="1.4">AUDIT PIPELINE</text>
-    <g font-size="22" font-weight="700" text-anchor="middle">
-      <rect x="50" y="453" width="120" height="38" fill="#111512" stroke="#7e8678"/>
-      <text x="110" y="480" fill="#f1eadb">URL</text>
-      <path d="M170 472H200" stroke="#c8ff3d" stroke-width="3"/>
-      <path d="M194 466L201 472 194 478" fill="none" stroke="#c8ff3d" stroke-width="2"/>
-      <rect x="201" y="453" width="120" height="38" fill="#111512" stroke="#7e8678"/>
-      <text x="261" y="480" fill="#f1eadb">CRAWL</text>
-      <path d="M321 472H351" stroke="#c8ff3d" stroke-width="3"/>
-      <path d="M345 466L352 472 345 478" fill="none" stroke="#c8ff3d" stroke-width="2"/>
-      <rect x="352" y="453" width="120" height="38" fill="#c8ff3d" fill-opacity=".08" stroke="#c8ff3d"/>
-      <text x="412" y="480" fill="#c8ff3d">CORE</text>
-      <path d="M472 472H502" stroke="#c8ff3d" stroke-width="3"/>
-      <path d="M496 466L503 472 496 478" fill="none" stroke="#c8ff3d" stroke-width="2"/>
-      <rect x="503" y="453" width="167" height="38" fill="#111512" stroke="#7e8678"/>
-      <text x="586" y="480" fill="#f1eadb">REPORT</text>
-    </g>
-    <text x="678" y="529" fill="#c8ff3d" font-size="15" font-weight="700" text-anchor="end">github.com/ariaxhan/site-spec  ↗</text>
+  <rect width="720" height="200" fill="url(#bg)"/><rect width="720" height="200" fill="url(#warm)"/>
+  <rect x="14" y="12" width="692" height="176" fill="none" stroke="#4a443c"/>
+  <path d="M14 12H190" stroke="#c47b61" stroke-width="2"/>
+  <g font-family="'Azeret Mono','IBM Plex Mono','Courier New',monospace">
+    <text x="32" y="39" fill="#c47b61" font-size="13" letter-spacing="2">01</text>
+    <text x="78" y="44" fill="#eee6d8" font-family="'Iowan Old Style',Baskerville,Georgia,serif" font-size="32" font-weight="300">site-spec</text>
+    <text x="568" y="38" fill="#948b7e" font-size="11" letter-spacing="1.5">WEB FOUNDATIONS</text>
+    <path d="M32 61H688" stroke="#4a443c"/>
+    <text x="32" y="98" fill="#ddd4c6" font-family="'Iowan Old Style',Baskerville,Georgia,serif" font-size="26" font-style="italic">Invisible site failures stop crawlers.</text>
+    <text x="32" y="132" fill="#c1b8aa" font-size="20">live crawl  →  deterministic audit  →  report</text>
+    <circle cx="34" cy="165" r="3" fill="#c47b61"/>
+    <text x="48" y="169" fill="#948b7e" font-size="13" letter-spacing="1">TYPESCRIPT  ·  139 TESTS  ·  CI  ·  V0.2</text>
+    <text x="675" y="169" fill="#c47b61" font-size="16" text-anchor="end">↗</text>
   </g>
 </svg>

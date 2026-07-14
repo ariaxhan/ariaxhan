@@ -1,53 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 310" role="img" aria-labelledby="title desc">
-  <title id="title">Aria Han — systems that prove their claims</title>
-  <desc id="desc">A graphite technical instrument panel introducing Aria Han's work in AI systems, tooling, and evaluation.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 210" role="img" aria-labelledby="title desc">
+  <title id="title">Aria Han — AI implementation specialist</title>
+  <desc id="desc">A calm dark editorial header in warm charcoal, cream, and muted terracotta.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#20261f"/>
-      <stop offset="0.48" stop-color="#111512"/>
-      <stop offset="1" stop-color="#090c0a"/>
+      <stop offset="0" stop-color="#29251f"/>
+      <stop offset=".28" stop-color="#221f1b"/>
+      <stop offset=".58" stop-color="#1c1a17"/>
+      <stop offset=".82" stop-color="#181613"/>
+      <stop offset="1" stop-color="#131210"/>
     </linearGradient>
-    <radialGradient id="glow" cx="76%" cy="42%" r="54%">
-      <stop offset="0" stop-color="#c8ff3d" stop-opacity=".13"/>
-      <stop offset="1" stop-color="#c8ff3d" stop-opacity="0"/>
+    <radialGradient id="warm" cx="80%" cy="22%" r="72%">
+      <stop offset="0" stop-color="#4a382f" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#181613" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M24 0H0V24" fill="none" stroke="#899180" stroke-opacity=".12" stroke-width="1"/>
-    </pattern>
-    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="5"/>
-    </filter>
   </defs>
+  <rect width="720" height="210" fill="url(#bg)"/>
+  <rect width="720" height="210" fill="url(#warm)"/>
+  <path d="M26 20H694M26 190H694" stroke="#4d463e" stroke-width="1"/>
+  <path d="M26 20H176" stroke="#c47b61" stroke-width="2"/>
 
-  <rect width="720" height="310" rx="6" fill="url(#bg)"/>
-  <rect width="720" height="310" rx="6" fill="url(#grid)"/>
-  <rect width="720" height="310" rx="6" fill="url(#glow)"/>
-  <path d="M22 1H698M22 309H698" stroke="#c8ff3d" stroke-opacity=".34"/>
-
-  <g transform="translate(30 0)" fill="none" stroke="#c8ff3d">
-    <circle cx="568" cy="130" r="83" stroke-opacity=".13"/>
-    <circle cx="568" cy="130" r="54" stroke-opacity=".23"/>
-    <circle cx="568" cy="130" r="4" fill="#c8ff3d"/>
-    <path d="M568 76V50M568 210v-26M514 130h-28M650 130h-28" stroke-opacity=".5"/>
-    <path d="M514 130L545 97 568 130 607 105 622 130 590 160 568 130 535 169Z" stroke-opacity=".85" stroke-width="2"/>
-    <circle cx="545" cy="97" r="3" fill="#c8ff3d"/>
-    <circle cx="607" cy="105" r="3" fill="#c8ff3d"/>
-    <circle cx="535" cy="169" r="3" fill="#c8ff3d"/>
-    <circle cx="590" cy="160" r="3" fill="#c8ff3d"/>
+  <g font-family="'Azeret Mono','IBM Plex Mono','Courier New',monospace">
+    <text x="30" y="42" fill="#a79e91" font-size="12" letter-spacing="2.4">FIG. 00  ·  TECHNICAL INDEX</text>
+    <text x="30" y="91" fill="#eee6d8" font-family="'Iowan Old Style',Baskerville,Georgia,serif" font-size="57" font-weight="300" letter-spacing="-1.2">Aria Han</text>
+    <text x="32" y="118" fill="#c47b61" font-size="13" letter-spacing="2.1">AI IMPLEMENTATION SPECIALIST</text>
+    <text x="31" y="157" fill="#d9d0c2" font-family="'Iowan Old Style',Baskerville,Georgia,serif" font-size="22" font-style="italic">Systems for real workflows, built to keep their context.</text>
+    <text x="570" y="181" fill="#a79e91" font-size="11" letter-spacing="1.2">ARIAXHAN.COM  ↗</text>
   </g>
-  <circle cx="598" cy="130" r="8" fill="#c8ff3d" opacity=".2" filter="url(#soft)"/>
 
-  <g font-family="'IBM Plex Mono','Cascadia Code','Courier New',monospace">
-    <text x="34" y="42" fill="#c8ff3d" font-size="14" font-weight="700" letter-spacing="2.6">TECHNICAL INDEX / 2026</text>
-    <text x="34" y="105" fill="#f1eadb" font-family="Baskerville,Georgia,serif" font-size="58" font-weight="700" letter-spacing="-2">ARIA HAN</text>
-    <text x="36" y="137" fill="#c7c1b4" font-size="16" font-weight="300" letter-spacing="1.4">AI IMPLEMENTATION  /  TOOLING  /  EVALUATION</text>
-
-    <path d="M34 164H433" stroke="#8c9386" stroke-opacity=".45"/>
-    <text x="34" y="194" fill="#f1eadb" font-size="18.5" font-weight="300">Inspectable infrastructure for AI systems:</text>
-    <text x="34" y="220" fill="#f1eadb" font-size="18.5" font-weight="300">tools, evidence loops, and diagnostics.</text>
-
-    <rect x="34" y="255" width="10" height="10" fill="#c8ff3d"/>
-    <text x="56" y="265" fill="#aaa699" font-size="14" font-weight="700" letter-spacing="1.4">SOURCE / TESTS / FAILURE MODES</text>
-    <text x="505" y="273" fill="#c8ff3d" font-size="13" font-weight="700" letter-spacing="1.2">ARIAXHAN.COM  ↗</text>
+  <g transform="translate(535 50)" fill="none" stroke-linecap="round">
+    <path d="M0 40C12 4 27 72 42 37S72 58 84 35" stroke="#c47b61" stroke-width="2"/>
+    <path d="M84 35H148" stroke="#6c645a" stroke-width="1.5"/>
+    <circle cx="148" cy="35" r="3" fill="#c47b61" stroke="none"/>
   </g>
 </svg>

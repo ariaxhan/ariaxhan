@@ -1,54 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" role="img" aria-labelledby="title desc">
-  <title id="title">kernel-claude case study</title>
-  <desc id="desc">A mobile-readable instrument plate explaining kernel-claude through its problem, system, evidence, and governed runtime.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 200" role="img" aria-labelledby="title desc">
+  <title id="title">KERNEL</title>
+  <desc id="desc">Gives coding agents durable context with skills, SQLite memory, and release gates.</desc>
   <defs>
-    <linearGradient id="bg" x1="1" y1="0" x2="0" y2="1">
-      <stop stop-color="#222920"/>
-      <stop offset=".5" stop-color="#121712"/>
-      <stop offset="1" stop-color="#080b09"/>
-    </linearGradient>
-    <radialGradient id="pulse" cx="74%" cy="77%" r="55%">
-      <stop stop-color="#c8ff3d" stop-opacity=".09"/>
-      <stop offset="1" stop-color="#c8ff3d" stop-opacity="0"/>
-    </radialGradient>
+    <linearGradient id="bg" x1="1" y1="0" x2="0" y2="1"><stop stop-color="#29241f"/><stop offset=".3" stop-color="#221e1a"/><stop offset=".58" stop-color="#1c1916"/><stop offset=".82" stop-color="#171512"/><stop offset="1" stop-color="#12110f"/></linearGradient>
+    <radialGradient id="warm" cx="18%" cy="15%" r="85%"><stop stop-color="#4a382f" stop-opacity=".12"/><stop offset="1" stop-color="#171512" stop-opacity="0"/></radialGradient>
   </defs>
-  <rect width="720" height="560" rx="6" fill="url(#bg)"/>
-  <rect width="720" height="560" rx="6" fill="url(#pulse)"/>
-  <rect x="20" y="20" width="680" height="520" fill="none" stroke="#92998b" stroke-opacity=".34"/>
-  <path d="M20 98H700" stroke="#92998b" stroke-opacity=".34"/>
-  <path d="M20 20H280" stroke="#c8ff3d" stroke-width="4"/>
-
-  <g font-family="'IBM Plex Mono','Cascadia Code','Courier New',monospace">
-    <text x="44" y="50" fill="#c8ff3d" font-size="16" font-weight="700" letter-spacing="2.2">02 / AGENT RUNTIME</text>
-    <text x="44" y="83" fill="#f1eadb" font-family="Baskerville,Georgia,serif" font-size="36" font-weight="700">kernel-claude</text>
-    <text x="678" y="64" fill="#a5a195" font-size="15" font-weight="700" text-anchor="end">GOVERNED EXECUTION ↗</text>
-
-    <text x="44" y="127" fill="#c8ff3d" font-size="17" font-weight="700" letter-spacing="1.8">PROBLEM</text>
-    <text x="44" y="164" fill="#f1eadb" font-size="30" font-weight="300">Coding agents lose context across</text>
-    <text x="44" y="201" fill="#f1eadb" font-size="30" font-weight="300">sessions and repeat old mistakes.</text>
-
-    <text x="44" y="238" fill="#c8ff3d" font-size="17" font-weight="700" letter-spacing="1.8">ENGINEERED SYSTEM</text>
-    <text x="44" y="275" fill="#f1eadb" font-size="30" font-weight="300">Skills + SQLite memory constrain</text>
-    <text x="44" y="312" fill="#f1eadb" font-size="30" font-weight="300">work before it reaches release.</text>
-
-    <text x="44" y="350" fill="#c8ff3d" font-size="17" font-weight="700" letter-spacing="1.8">EVIDENCE</text>
-    <text x="44" y="380" fill="#f1eadb" font-size="24" font-weight="700">v8.1.1 / 34 skills</text>
-    <text x="320" y="380" fill="#aaa79a" font-size="22" font-weight="300">Claude + Codex / 6 workflows</text>
-
-    <rect x="32" y="416" width="656" height="88" fill="#131813" stroke="#8a9283" stroke-opacity=".5"/>
-    <text x="50" y="441" fill="#aaa79a" font-size="14" font-weight="700" letter-spacing="1.4">GOVERNED RUNTIME</text>
-    <g font-size="22" font-weight="700" text-anchor="middle">
-      <rect x="50" y="453" width="140" height="38" fill="#171d17" stroke="#7e8678"/>
-      <text x="120" y="480" fill="#f1eadb">SKILLS</text>
-      <path d="M190 472H226" stroke="#c8ff3d" stroke-width="3"/>
-      <path d="M220 466L227 472 220 478" fill="none" stroke="#c8ff3d" stroke-width="2"/>
-      <rect x="227" y="453" width="178" height="38" fill="#c8ff3d" fill-opacity=".08" stroke="#c8ff3d"/>
-      <text x="316" y="480" fill="#c8ff3d">RUNTIME</text>
-      <path d="M405 472H441" stroke="#c8ff3d" stroke-width="3"/>
-      <path d="M435 466L442 472 435 478" fill="none" stroke="#c8ff3d" stroke-width="2"/>
-      <rect x="442" y="453" width="228" height="38" fill="#171d17" stroke="#7e8678"/>
-      <text x="556" y="480" fill="#f1eadb">VALIDATE</text>
-    </g>
-    <text x="678" y="529" fill="#c8ff3d" font-size="15" font-weight="700" text-anchor="end">github.com/ariaxhan/kernel-claude  ↗</text>
+  <rect width="720" height="200" fill="url(#bg)"/><rect width="720" height="200" fill="url(#warm)"/>
+  <rect x="14" y="12" width="692" height="176" fill="none" stroke="#4a443c"/>
+  <path d="M530 12H706" stroke="#c47b61" stroke-width="2"/>
+  <g font-family="'Azeret Mono','IBM Plex Mono','Courier New',monospace">
+    <text x="32" y="39" fill="#c47b61" font-size="13" letter-spacing="2">02</text>
+    <text x="78" y="44" fill="#eee6d8" font-family="'Iowan Old Style',Baskerville,Georgia,serif" font-size="32" font-weight="300">KERNEL</text>
+    <text x="554" y="38" fill="#948b7e" font-size="11" letter-spacing="1.5">AGENT RUNTIME</text>
+    <path d="M32 61H688" stroke="#4a443c"/>
+    <text x="32" y="98" fill="#ddd4c6" font-family="'Iowan Old Style',Baskerville,Georgia,serif" font-size="26" font-style="italic">Coding agents lose context between sessions.</text>
+    <text x="32" y="132" fill="#c1b8aa" font-size="20">skills  +  SQLite memory  +  release gates</text>
+    <circle cx="34" cy="165" r="3" fill="#c47b61"/>
+    <text x="48" y="169" fill="#948b7e" font-size="13" letter-spacing="1">V8.1.1  ·  34 SKILLS  ·  CLAUDE + CODEX</text>
+    <text x="675" y="169" fill="#c47b61" font-size="16" text-anchor="end">↗</text>
   </g>
 </svg>
