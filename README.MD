@@ -74,7 +74,6 @@ The agent is not magic. The system around it can be.
 | **[Civic Forges](https://civicforges.com)** | Playable browser city builder crossed with a city-leader life simulator. App Store coming soon. |
 | **[Not Recommended](https://chromewebstore.google.com/detail/not-recommended/hpgdmjphjmohhblolojdcpmcbeangnfh)** | Chrome extension that replaces YouTube's infinite feed with a finite, question-first starting point. |
 | **Hearth** | Local macOS notch companion for conversation memory, windows, files, system state, and Ollama. |
-| **[Reality Check](https://reality-check-qhy9.onrender.com)** | Autonomous hackathon-project review with blind human feedback, a PDF verdict, and an agent-readable repair brief. Built with Myat Paing. |
 | **[Brink Mind](https://github.com/ariaxhan/brink-mind)** | iOS journaling, private AI conversation, and biometric insights. SwiftUI + HealthKit. |
 | **HeyContext** | Multi-agent orchestration workspace with adaptive model/config selection and shared context. |
 | **HeyContent** | Cross-platform memory architecture for creator context, later integrated into HeyContext. |
