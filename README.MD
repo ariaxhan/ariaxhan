@@ -26,10 +26,13 @@ The short version: three companies, five hackathon wins, dozens of public GitHub
 | **[KERNEL](https://github.com/ariaxhan/kernel-claude)** | Claude Code that learns from itself. Persistent SQLite memory, multi-agent orchestration, validation gates, on-demand skills, and an experiment engine for proving which rules actually work. |
 | **[llm-bench](https://github.com/ariaxhan/llm-bench)** | Practical workflow benchmarks for local and API-hosted language models, with programmatic verifiers and provider adapters. |
 | **[model-familiarity-engine](https://github.com/ariaxhan/model-familiarity-engine)** | Evidence-backed model cards from replayed known-outcome tasks and observed model behavior. |
-| **[the-agent-library](https://github.com/ariaxhan/the-agent-library)** | A curated library of 40 portable skills for Claude, Codex, and other agents: verification, planning, research, writing, work management, code engineering, and shipping. |
+| **[the-agent-library](https://github.com/ariaxhan/the-agent-library)** | A curated library of 41 portable skills for Claude, Codex, and other agents: verification, planning, research, writing, work management, code engineering, and shipping. |
 | **[metabrain](https://github.com/ariaxhan/metabrain)** | Zero-dependency SQLite memory for agents. Patterns graduate into hypotheses; outcomes become experiments; proven lessons become preferences. |
 | **[agentmailkit](https://github.com/ariaxhan/agentmailkit)** | Scheduled, LLM-written email digests that run on your machine, read your own files, and send from your own inbox. An email is two files: a JSON job and a markdown prompt. The model writes only the words, a deterministic renderer owns everything else, so the same job produces the same shaped email every run. [Sample output](https://ariaxhan.github.io/agentmailkit/). |
-| **[Substrate](https://nexus-substrate.pages.dev)** | Generative art gallery where Claude generates one self-contained interactive HTML piece per run through daily automation — in the lineage of [Taper](https://taper.badquar.to/). Live at [nexus-substrate.pages.dev](https://nexus-substrate.pages.dev), 390+ pieces and counting. |
+| **[Nexus Office](https://github.com/ariaxhan/nexus-office)** | Mac and phone interface for live agent threads, repositories, issues, pull requests, scheduled flows, and permission gates. |
+| **[renderstate](https://www.npmjs.com/package/renderstate)** | Deterministic React UI-state renderer that derives prop combinations from TypeScript and emits screenshots plus a neutral manifest. |
+| **[site-spec](https://github.com/ariaxhan/site-spec)** | Website auditor and compiler for human and agent-readable site contracts, with CLI and MCP server. |
+| **[Substrate](https://nexus-substrate.pages.dev)** | Generative art gallery where Claude generates one self-contained interactive HTML piece per run through daily automation, in the lineage of [Taper](https://taper.badquar.to/). Live at [nexus-substrate.pages.dev](https://nexus-substrate.pages.dev), 595 pieces and counting. |
 | **[latent-diagnostics](https://github.com/ariaxhan/latent-diagnostics)** | Representation-level analysis of LLMs via attribution graph geometry. Preserves both real task-domain signals and negative results that did not survive controls. |
 
 ---
@@ -66,7 +69,12 @@ The agent is not magic. The system around it can be.
 
 | | |
 |---|---|
-| **ModelMind** | Duolingo-style app for understanding how AI works, not how to prompt it. In beta on TestFlight and Google Play internal testing. |
+| **[ModelMind](https://apps.apple.com/us/app/modelmind/id6761348536)** | Duolingo-style app for understanding how AI works, not how to prompt it. Live and free on the App Store. |
+| **[Paper Rooms](https://apps.apple.com/us/app/paper-rooms/id6780741814)** | Local-first research paper reader and library. Live and free on the App Store. |
+| **[Civic Forges](https://civicforges.com)** | Playable browser city builder crossed with a city-leader life simulator. App Store coming soon. |
+| **[Not Recommended](https://chromewebstore.google.com/detail/not-recommended/hpgdmjphjmohhblolojdcpmcbeangnfh)** | Chrome extension that replaces YouTube's infinite feed with a finite, question-first starting point. |
+| **Hearth** | Local macOS notch companion for conversation memory, windows, files, system state, and Ollama. |
+| **[Reality Check](https://reality-check-qhy9.onrender.com)** | Autonomous hackathon-project review with blind human feedback, a PDF verdict, and an agent-readable repair brief. Built with Myat Paing. |
 | **[Brink Mind](https://github.com/ariaxhan/brink-mind)** | iOS journaling, private AI conversation, and biometric insights. SwiftUI + HealthKit. |
 | **HeyContext** | Multi-agent orchestration workspace with adaptive model/config selection and shared context. |
 | **HeyContent** | Cross-platform memory architecture for creator context, later integrated into HeyContext. |
