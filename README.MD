@@ -1,124 +1,28 @@
-<div align="center">
-
 # Aria Han
 
-**AI systems architect · writer · builder**
+**AI consultant. I build autonomous AI systems that run companies end to end.**
 
-<a href="https://ariaxhan.com"><img src="https://img.shields.io/badge/ariaxhan.com-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Website" /></a>
-<a href="https://medium.com/@ariaxhan"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" /></a>
-<a href="https://github.com/ariaxhan"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-<a href="https://linkedin.com/in/ariahan"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+Not demos and not chatbots: systems of agents that plan, execute, check their own work, and escalate only the decisions a human should make.
 
-</div>
+I work in English and Korean, remotely, with clients in the US and Korea. A lot of my work sits on that line: teams in Seoul building for the US, US companies working with Korea, founders who think in one language and sell in the other. Nothing gets lost in translation because there isn't any — you get the same person on both sides.
 
----
+I'm also a fractional CTO at an AI-first education company, where an autonomous system I architected supports the company's operations end to end. I own the architecture, the guardrails, and the exceptions.
 
-I build systems that make AI agents more reliable: memory, coordination, verification, model routing, and the little workflows that keep agents from confidently wandering into a wall.
+## Selected work
 
-The short version: three companies, five hackathon wins, dozens of public GitHub repositories, and an obsession with agent infrastructure that proves its own claims.
+- **[KERNEL](https://github.com/ariaxhan/kernel-claude)** — agent orchestration system: persistent memory, multi-agent coordination, validation gates, and an experiment engine for proving which rules actually work. Real external users; listed on the HOL plugin registry.
+- **[Nexus Office](https://github.com/ariaxhan/nexus-office)** — the operations layer behind my consulting work: live agent threads, repositories, issues, and permission gates, running unattended on local hardware.
+- **[agentmailkit](https://github.com/ariaxhan/agentmailkit)** — Python package for scheduled, LLM-written email digests that run on your machine and send from your own inbox. Deterministic renderer; the model writes only the words.
+- **Three free apps on the App Store** (developer: CHAEUN HAN) — [ModelMind](https://apps.apple.com/us/app/modelmind/id6761348536), bite-sized AI mastery; [Paper Rooms](https://apps.apple.com/us/app/paper-rooms/id6780741814), every paper has an address; [Civic Forges](https://civicforges.com), build the city, live the life.
+- **Writing** — the novel *The Correction*, a speculative history on Amazon KDP, and the poetry collection *notes on surviving eternity*.
 
----
+## Work with me
 
-## Current Work
+- **Free project review** — [ariaxhan.com/project-review](https://ariaxhan.com/project-review/)
+- **Book a call** — [ariaxhan.com/contact](https://ariaxhan.com/contact/)
+- **Contra** — [contra.com/ariaxhan](https://contra.com/ariaxhan)
+- **Upwork** — [upwork.com/freelancers/~015d02c1cfdd819d5d](https://www.upwork.com/freelancers/~015d02c1cfdd819d5d)
+- **LinkedIn** — [linkedin.com/in/ariahan](https://www.linkedin.com/in/ariahan)
+- **Site** — [ariaxhan.com](https://ariaxhan.com)
 
-| | |
-|---|---|
-| **[KERNEL](https://github.com/ariaxhan/kernel-claude)** | Claude Code that learns from itself. Persistent SQLite memory, multi-agent orchestration, validation gates, on-demand skills, and an experiment engine for proving which rules actually work. |
-| **[llm-bench](https://github.com/ariaxhan/llm-bench)** | Practical workflow benchmarks for local and API-hosted language models, with programmatic verifiers and provider adapters. |
-| **[model-familiarity-engine](https://github.com/ariaxhan/model-familiarity-engine)** | Evidence-backed model cards from replayed known-outcome tasks and observed model behavior. |
-| **[the-agent-library](https://github.com/ariaxhan/the-agent-library)** | A curated library of 41 portable skills for Claude, Codex, and other agents: verification, planning, research, writing, work management, code engineering, and shipping. |
-| **[metabrain](https://github.com/ariaxhan/metabrain)** | Zero-dependency SQLite memory for agents. Patterns graduate into hypotheses; outcomes become experiments; proven lessons become preferences. |
-| **[agentmailkit](https://github.com/ariaxhan/agentmailkit)** | Scheduled, LLM-written email digests that run on your machine, read your own files, and send from your own inbox. An email is two files: a JSON job and a markdown prompt. The model writes only the words, a deterministic renderer owns everything else, so the same job produces the same shaped email every run. [Sample output](https://ariaxhan.github.io/agentmailkit/). |
-| **[Nexus Office](https://github.com/ariaxhan/nexus-office)** | Mac and phone interface for live agent threads, repositories, issues, pull requests, scheduled flows, and permission gates. |
-| **[renderstate](https://www.npmjs.com/package/renderstate)** | Deterministic React UI-state renderer that derives prop combinations from TypeScript and emits screenshots plus a neutral manifest. |
-| **[site-spec](https://github.com/ariaxhan/site-spec)** | Website auditor and compiler for human and agent-readable site contracts, with CLI and MCP server. |
-| **[Substrate](https://nexus-substrate.pages.dev)** | Generative art gallery where Claude generates one self-contained interactive HTML piece per run through daily automation, in the lineage of [Taper](https://taper.badquar.to/). Live at [nexus-substrate.pages.dev](https://nexus-substrate.pages.dev), 595 pieces and counting. |
-| **[latent-diagnostics](https://github.com/ariaxhan/latent-diagnostics)** | Representation-level analysis of LLMs via attribution graph geometry. Preserves both real task-domain signals and negative results that did not survive controls. |
-
----
-
-## The Through-Line
-
-**Agents need evidence, not vibes.**
-
-Most AI systems still run like this: ask the model, hope the answer is good, iterate until it sounds right. I build the opposite shape:
-
-- **Memory that compounds:** agent lessons stored as structured evidence, not loose notes.
-- **Contracts before code:** scope, acceptance criteria, and failure modes written before implementation.
-- **Verification as default:** tests, lint, adversarial review, and live checks before saying done.
-- **Benchmarks with verifiers:** model comparison should be boring, reproducible, and inspectable.
-- **Model familiarity:** models earn responsibilities through observed work, not benchmark gossip.
-- **Portable workflows:** reusable skills that make agent behavior legible across tools.
-
-The agent is not magic. The system around it can be.
-
----
-
-## Research
-
-| | |
-|---|---|
-| **[latent-diagnostics](https://github.com/ariaxhan/latent-diagnostics)** | Measures computational regimes inside model internals. Strongest result: task-domain geometry survives length control; truthfulness detection did not. |
-| **[universal-spectroscopy-engine](https://github.com/ariaxhan/universal-spectroscopy-engine)** | Spectroscopy-inspired local engine for diagnosing semantic drift and model blindness. |
-| **[experiments](https://github.com/ariaxhan/experiments)** | Append-only specimen archive for LLM experiments. |
-| **[arbiter](https://github.com/ariaxhan/arbiter)** | Propositional logic validation and compression library. |
-
----
-
-## Production And Apps
-
-| | |
-|---|---|
-| **[ModelMind](https://apps.apple.com/us/app/modelmind/id6761348536)** | Duolingo-style app for understanding how AI works, not how to prompt it. Live and free on the App Store. |
-| **[Paper Rooms](https://apps.apple.com/us/app/paper-rooms/id6780741814)** | Local-first research paper reader and library. Live and free on the App Store. |
-| **[Civic Forges](https://civicforges.com)** | Playable browser city builder crossed with a city-leader life simulator. App Store coming soon. |
-| **[Not Recommended](https://chromewebstore.google.com/detail/not-recommended/hpgdmjphjmohhblolojdcpmcbeangnfh)** | Chrome extension that replaces YouTube's infinite feed with a finite, question-first starting point. |
-| **Hearth** | Local macOS notch companion for conversation memory, windows, files, system state, and Ollama. |
-| **[Brink Mind](https://github.com/ariaxhan/brink-mind)** | iOS journaling, private AI conversation, and biometric insights. SwiftUI + HealthKit. |
-| **HeyContext** | Multi-agent orchestration workspace with adaptive model/config selection and shared context. |
-| **HeyContent** | Cross-platform memory architecture for creator context, later integrated into HeyContext. |
-| **[HotAgents](https://github.com/ariaxhan/hotagents)** | Hotkey-triggered desktop agent that reads screenshots and helps explain, draft, code, and proofread. |
-| **[Itinerator](https://github.com/ariaxhan/itinerator)** | AI-powered itinerary generator built with React, Firebase, and Cloudflare Pages. |
-| **[Freetime](https://github.com/ariaxhan/freetime)** | AI agents for coordinating social plans across interests, timing, and location. |
-
----
-
-## Infrastructure Shelf
-
-| | |
-|---|---|
-| **[conductor](https://github.com/ariaxhan/conductor)** | MCP server bridging Claude Desktop and Claude Code. |
-| **[armature-ai](https://github.com/ariaxhan/armature-ai)** | AI optimization framework using evolutionary algorithms, bandits, and agent societies. |
-| **[event-horizon](https://github.com/ariaxhan/event-horizon)** | Physics-informed chaos-gated data vault experiments. |
-| **[memory-pool](https://github.com/ariaxhan/memory-pool)** | Structured persistent-memory interface. Memory is not a timeline. |
-| **[go-voice](https://github.com/ariaxhan/go-voice)** | Voice-native CLI for Claude Code: speech-to-text input and text-to-speech output. |
-
----
-
-## Writing
-
-Selected essays:
-
-- [Stop Copying Other People's AI Setups. Build One That's Actually Yours.](https://medium.com/@ariaxhan/stop-copying-other-peoples-ai-setups-build-one-that-s-actually-yours-e1a05ebabc2a)
-- [What an AI Detector Actually Measures](https://medium.com/@ariaxhan/what-an-ai-detector-actually-measures-86b452979a5a)
-- [The Agent-Ready Web](https://medium.com/@ariaxhan/the-agent-ready-web-a-working-guide-to-cloudflares-new-score-1ed0fce8d760)
-- [Self-Learning Agent Civilization](https://medium.com/@ariaxhan/how-i-turned-cursor-into-a-self-learning-agent-civilization-7a149e6f34e8)
-- [How to Make Claude Code Actually Work](https://medium.com/@ariaxhan/how-to-make-claude-code-actually-work-structure-memory-and-multi-agent-workflows-6d32b1d815d2)
-- [Why Prompt Engineering Can't Fix Hallucinations](https://medium.com/@ariaxhan/why-prompt-engineering-cant-fix-hallucinations-but-neurosurgery-can-a1a7afa2f8bf)
-
----
-
-```text
-Python · TypeScript · Swift · Go
-Next.js · React Native · FastAPI · SvelteKit
-Claude Code · SQLite · SAEs · evals · multi-agent systems
-```
-
-<div align="center">
-
-Los Angeles
-
-<a href="mailto:ariaxhan@gmail.com"><img src="https://img.shields.io/badge/ariaxhan@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
-<a href="https://x.com/aria__han"><img src="https://img.shields.io/badge/@aria__han-1DA1F2?style=flat-square&logo=twitter&logoColor=white" alt="X" /></a>
-
-</div>
+Los Angeles · remote, US and Korea
