@@ -14,7 +14,7 @@ I'm also a fractional CTO at an AI-first education company, where an autonomous 
 - **[Nexus Office](https://github.com/ariaxhan/nexus-office)** — the operations layer behind my consulting work: live agent threads, repositories, issues, and permission gates, running unattended on local hardware.
 - **[agentmailkit](https://github.com/ariaxhan/agentmailkit)** — Python package for scheduled, LLM-written email digests that run on your machine and send from your own inbox. Deterministic renderer; the model writes only the words.
 - **Three free apps on the App Store** (developer: CHAEUN HAN) — [ModelMind](https://apps.apple.com/us/app/modelmind/id6761348536), bite-sized AI mastery; [Paper Rooms](https://apps.apple.com/us/app/paper-rooms/id6780741814), every paper has an address; [Civic Forges](https://civicforges.com), build the city, live the life.
-- **Writing** — the novel *The Correction*, a speculative history on Amazon KDP, and the poetry collection *notes on surviving eternity*.
+- **Writing** — the novel [*The Correction*](https://ariaxhan.com/projects/the-correction/), a speculative history on Amazon KDP, and the poetry collection *notes on surviving eternity*.
 
 ## Work with me
 
