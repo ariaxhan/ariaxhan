@@ -21,7 +21,6 @@ I'm also a fractional CTO at an AI-first education company, where an autonomous 
 - **Free project review** — [ariaxhan.com/project-review](https://ariaxhan.com/project-review/)
 - **Book a call** — [ariaxhan.com/contact](https://ariaxhan.com/contact/)
 - **Contra** — [contra.com/ariaxhan](https://contra.com/ariaxhan)
-- **Upwork** — [upwork.com/freelancers/~015d02c1cfdd819d5d](https://www.upwork.com/freelancers/~015d02c1cfdd819d5d)
 - **LinkedIn** — [linkedin.com/in/ariahan](https://www.linkedin.com/in/ariahan)
 - **Site** — [ariaxhan.com](https://ariaxhan.com)
 
